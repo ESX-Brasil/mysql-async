@@ -139,3 +139,7 @@ local countPlayer = MySQL.Sync.fetchScalar("SELECT COUNT(1) FROM players")
  * It uses the https://github.com/mysqljs/mysql library to provide a connection to your mysql server.
  * Create and close a connection for each query, the underlying library use a connection pool so only the
 mysql auth is done each time, old tcp connections are keeped in memory for performance reasons.
+
+## Discord
+
+https://discord.gg/ZGXTsdN
